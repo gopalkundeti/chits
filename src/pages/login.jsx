@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import { useNavigate } from 'react-router-dom'
 
 
-function Login() {
+const Login = () =>  {
     const navigate = useNavigate();
     const [phoneNumber, setPhoneNumber] = useState('');
     const [password, setPassword] = useState('');
